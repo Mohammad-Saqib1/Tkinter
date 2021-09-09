@@ -1,0 +1,12 @@
+from tkinter import *
+root=Tk()
+root.geometry('500x500')
+f1=Frame(root,bg='orange',relief=SUNKEN)
+f1.pack(side=LEFT,fill="y")
+f2=Frame(root,bg='orange',relief=SUNKEN)
+f2.pack(side=TOP,fill="x")
+l=Label(f1,text="VISUAL STUDIO",borderwidth=6,relief=SUNKEN)
+l.pack(pady=142)
+l=Label(f2,text="Welcome to our vs code",borderwidth=8,relief=SUNKEN)
+l.pack()
+root.mainloop()
